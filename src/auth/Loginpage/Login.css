@@ -1,0 +1,174 @@
+.backgrd{
+    background-image: url(../../assets/Jpegs/oreti.png);
+    width: 50%;
+    background-size: cover;
+}
+.pad-div{
+    width: 53%;
+    /* height: 100%; */
+   
+}
+.transparent{
+    padding: 20px 5px 10px 5px;
+    /* height: 100%; */
+}
+
+ form{
+    width: 100%;
+    margin-bottom: 0px;
+} 
+form div{
+    display: flex;
+    gap: 15%;
+   
+}
+.boxflex{
+    display: flex;
+    width: 99.8%;
+    height: 100vh;
+}
+
+
+.loginform .email-pass-log {
+    display: flex;
+    flex-direction: column;
+}
+
+.loginform input[type='email'],
+.loginform input[type='Password'] {
+    width: 95%;
+    padding: 10px;
+    line-height: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid #FFB573;
+    outline: none;
+}
+.register-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 15px 0px;
+}
+
+.register-btn p {
+    font-size: 15px;
+}
+
+.register-btn a {
+    text-decoration: none;
+    color: #FFB573;
+    font-weight: 500;
+}
+
+.register-btn .disable-btn {
+    background:  #e0b289;
+    color: rgb(136, 131, 131);
+    padding: 8px;
+    border-radius: 18px;
+    width: 130px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    cursor: not-allowed;
+}
+.disable-btn-active{
+    background: #FFB573;
+    color: rgb(241, 229, 229);
+    padding: 8px;
+    border-radius: 18px;
+    width: 130px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+   
+    .register-btn p {
+        font-size: 13px;
+        width: 100%;
+    }
+    .register-btn .disable-btn {
+        padding: 5px;
+        font-size: 15px;
+    }
+    .disable-btn-active {
+        padding: 5px;
+        font-size: 15px;
+    }
+    .logo-paragr p {
+       font-size: 14px;
+    }
+    .formdiv {
+        padding-left: 10px;
+        padding-right: 20px;
+
+    }
+    .transparent {
+        padding: 5px 5px 10px 5px;
+    }
+}
+
+@media (width <=576px) {
+    .backgrd {
+       width: 35%; 
+    }
+    .pad-div {
+        width: 66%;
+    }
+    .golink h5 {
+        font-size: 12px;
+    }
+    .backgrd {
+        display: none;
+      }
+
+    .pad-div {
+        background-image: url(../../assets/Jpegs/oreti.png);
+        width: 100%;
+        background-size: cover;
+      }
+      .transparent {
+        background: rgb(255, 254, 254) ;
+        opacity: 0.83;
+       
+      }
+      .formdiv {
+       background: transparent;
+        z-index: 99;
+        
+      }
+      .loginform input[type='email'], .loginform input[type='Password'] {
+        
+        background: #faf2ea;
+    }
+}
+
+@media (width <= 375px) {
+    
+    
+    .logo-text h3{
+    font-size: 10px;
+    }
+    .logo-paragr p {
+        font-size: 13px;
+     }
+     .register-btn p {
+        font-size: 13px;
+    }
+    .register-btn .disable-btn {
+        padding: 2px;
+        font-size: 13px;
+    }
+    .disable-btn-active {
+        padding: 2px;
+        font-size: 13px;
+    }
+    .loginform input[type='email'], .loginform input[type='Password'] {
+        width: 92%;
+    }
+
+
+}

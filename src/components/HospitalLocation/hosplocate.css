@@ -1,0 +1,58 @@
+.div-div-hosp {
+    width: 210px;
+    height: 255px;
+    border: 1px solid #AC0D08;
+    border-radius: 10px;
+}
+
+.contain-hospital {
+    padding: 12px;
+    height: 195px;
+    outline: none;
+}
+
+
+.icon-name-tag-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.the-icon-tag-contain {
+    height: 15px;
+    width: 15px;
+    padding: 10px;
+    border-radius: 10px ;
+    background: #EE7F0033;
+}
+
+.icon-logo {
+    width: 120px;
+    height: 120px;
+    background: white;
+    border-radius: 100%;
+    margin: auto;
+    margin-top: 15px;
+    border: 1px solid #FFB573;
+}
+.icon-header-text{
+    padding: 3px 0px;
+}
+
+.icon-header-text h3{
+    text-align: center;
+    font-size: 15px;
+}
+
+.km-link {
+    padding: 5px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.km-link a {
+    text-decoration: none;
+    color: #EE7F00;
+    font-size: 15px;
+}

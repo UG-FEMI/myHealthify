@@ -1,0 +1,18 @@
+.balance-container{
+    border: 1px solid #AC0D08;
+    border-radius: 10px;
+    width: 250px;
+    height: 80px;
+}
+.contain-track-bal{
+    padding: 5px 10px;
+    line-height: 1.5rem;
+    text-align: justify;
+    width: 100%;
+}
+.contain-track-bal h6{
+    font-weight: 600;
+}
+.contain-track-bal h4{
+    font-size:25px;
+}

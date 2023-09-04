@@ -1,0 +1,9 @@
+.logohead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logohead h3{
+    font-family: 'Charmonman', cursive;
+  
+  }

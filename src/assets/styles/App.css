@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&family=Montserrat:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,500&family=Montserrat:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+
+}
+html{  
+ scroll-behavior: smooth;
+
+}
+
+
+
+
+
+
+
+
+

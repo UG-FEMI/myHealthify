@@ -1,0 +1,19 @@
+.footer-container {
+    background: #313545;
+    color: #e0e1e4;
+    text-align: center;
+}
+.foot-contain{
+    padding: 25px 10px;
+}
+.footer-list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 25px 0;
+    list-style: none;
+}
+
+.copright {
+    margin: auto;
+}

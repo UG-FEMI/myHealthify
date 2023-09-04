@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+
+
+.logo2{
+    border-radius: 100%;
+    background: #03053D;
+    width: 120px;
+    height: 120px;
+}
+.logo3{
+  padding: 20px 0px 0px 15px;
+  
+}
+
+.board-padd{
+    margin: 60px 0 0 70px;
+}
+.container-board{
+    display: flex;
+    justify-content: space-between;
+}
+.board-text h2{
+    font-size:30px ;
+}
+.board-text p{
+    font-weight: 500; 
+    color: #757A81;
+    padding: 10px 0px;
+}
+.board-main-container{
+    padding: 50px 40px 20px 5px;
+}
+.sub-content{
+    display: flex;
+    justify-content:space-between ;
+}
+.sub-content-text{
+   padding: 5px 13px;
+   background: #AC0D08;
+   color: white;
+   font-weight: 300;
+   font-size: 12px;
+   border-radius: 20px;
+}
+.sub-content-select .sub-cont-sel{
+    outline: none;
+    border: 1px solid #EE7F00;
+    color: #757A81;
+    background: transparent;
+}
+.account-cash-total{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    gap: 30px;
+    
+}
+.history-ai-doc-container{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+
+}
+.history, .ai-doc{
+    border: 1px solid #EE7F00;
+    border-radius: 20px;
+    width: 45%;
+    padding: 10px;
+    height: 300px;
+}
+
+.health-center-container{
+    display: flex;
+   flex-wrap: wrap;
+   gap: 30px;
+   margin-top: 30px;
+}
+.textbox-chat{
+    background: #03053D;
+    border-radius: 10px;
+    position: relative;
+    padding: 10px;
+    color: antiquewhite;
+    height: 50px;
+}
+.textbox-chat p{
+    font-size: 13px;
+}
+.textbox-chat ::before{
+   content: '';
+   position: absolute;
+   top: 0;
+   width: 10px;
+   height: 10px;
+   border-left: 10px solid transparent;
+   border-right: 10px solid #03053D;
+   border-bottom: 10px solid transparent;
+   transform: rotate(-50deg);
+}
+.basic-plan-contain h3, .mega-plan-contain h3{
+    padding-bottom: 20px;
+} 
+
+.basic-plan-contain p, .mega-plan-contain p{
+    padding-bottom: 15px;
+} 
+.plan-list{
+line-height: 2.4rem;
+padding-left: 18px;
+
+}
+ .plann-btn, .plann-btn2{
+   padding: 7px 20px;
+}
+
+.basic-plan-contain h5{
+    padding-bottom: 12px;
+    font-size: 25px;
+    color: rgba(0,0,0,0.5);
+} 
+.upper-text{
+    font-size: 12px;
+    padding-bottom: 20px;
+    color: rgba(0,0,0,0.5);
+}
+.cont1{
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 48%;
+}
+.basic-plan-contain, .mega-plan-contain {
+  padding: 20px ;
+}
+
+
+.plan-center-container{
+    display: flex;
+    gap: 25px;
+}
+
+   
+@media (width <=576px) {
+
+    .proicon img {
+        width: 20px;
+        height: 20px;
+    }
+    .profile {
+        width: 13px;
+        height: 13px;
+    }
+    .profile img {
+        
+      text-align: center;
+    }
+    .board-text h2 {
+        font-size: 22px;
+    }
+    .board-text p {
+        font-size: 14px;
+    }
+    .subsciption-btn {
+        width: 140px;
+        font-size: 12px;
+        gap: 5px;
+        padding-top:2px;
+        padding-bottom: 2px ;
+    }
+    .sub-content-text {
+        font-size: 11px;
+    }
+    .contain-track-bal h6{
+        font-size: 10px;
+    }
+    .contain-track-bal h4{
+        font-size:20px;
+
+    }
+    .contain-track-bal {
+        padding: 5px;
+       
+    }
+    .history, .ai-doc {
+        
+        width: 42%;
+        padding: 10px;
+        height: 300px;
+    }
+
+    .plan-center-container {
+       flex-direction: column;
+       width: 100%;
+    }
+    .cont1 {
+        width: 100%;
+    }
+}
+@media (width <= 375px) {
+
+    .dashnav-pad {
+       
+        padding: 0px 10px;
+    }
+    .board-padd {
+        /* width: 90%; */
+        margin: 60px 0 0 55px;
+    }
+    .board-main-container {
+        padding: 50px 10px 20px 5px;
+    }
+    .account-cash-total {
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+    .board-text h2 {
+        font-size: 18px;
+    }
+    .subsciption-btn {
+        width: 130px;
+        font-size: 10px;
+        gap: 5px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+}
+.board-text p {
+    font-size: 12px;
+}
+
+
+.sub-content-text {
+    font-size: 10px;
+    padding: 3px 5px;
+}
+.history-ai-doc-container {
+    flex-direction: column;
+    gap: 25px;
+}
+.history, .ai-doc {
+    width: 90%;
+
+}
+
+}

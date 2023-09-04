@@ -1,0 +1,105 @@
+
+
+label{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3px; 
+    font-size: 15px;
+   
+   
+}
+.lab input {
+    width: 240px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #FFB573;
+    outline: none;
+}
+.lab-phone input{
+    width: 240px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #FFB573;
+    outline: none;
+}
+
+.select {
+     width: 262px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #FFB573;
+    outline: none;
+}
+
+
+
+@media screen and (max-width:768px) {
+   
+    .lab input {
+        width: 100%;
+        
+    }
+    .select {
+        width: 171px;
+       
+    }
+.lab-phone input {
+        width: 100%;
+        
+    }
+    .lab-phone{
+        margin-left: -19px;
+    }
+   
+    
+}
+
+@media (width <=576px) {
+   
+    .lab input {
+        width: 210px;
+        background: #faf2ea;
+    }
+    .lab-phone input{
+        width: 210px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #FFB573;
+        outline: none;
+        background: #faf2ea;
+    }
+    .select {
+        width: 230px;
+        background: #faf2ea;
+   }
+   .lab-phone{
+    margin-left: 0px;
+}
+}
+
+@media (width <= 375px) {
+    Form div {
+
+        gap: 5%;
+    }
+    .lab input {
+        width: 150px;
+    }
+    .select {
+        width: 172px;
+    }
+    .lab-phone input {
+        width: 150px;
+    }
+    .formdiv {
+        padding: 0;
+    }
+
+    
+.prev-contain {
+    margin-top: 10px;
+}
+
+
+}

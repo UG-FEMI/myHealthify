@@ -1,0 +1,203 @@
+.navpad {
+    display: flex;
+    padding: 20px 30px;
+    justify-content: space-between;
+
+}
+
+
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    align-items: center;
+}
+
+.nav-links .the-link {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    transition: 1s;
+}
+ .the-link :hover{ 
+    color: #FFB573;
+}
+
+.reg-log-buttons {
+    display: flex;
+    align-items: center;
+
+    gap: 5px;
+}
+
+.sm-screen-menu {
+    border: none;
+    background: none;
+    font-size: 20px;
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+
+    .nav-links {
+        gap: 8px;
+
+    }
+
+    .nav-links .the-link {
+        font-size: 14px;
+    }
+
+    .btn {
+
+        padding: 8px;
+        font-size: 15px;
+
+    }
+
+    .btn_primary {
+        width: 110px;
+        font-size: 15px;
+    }
+
+    .Flexcontain {
+        width: 100%;
+    }
+
+    .flexcontain-text {
+        width: 50%;
+    }
+
+    .flexcontain-image {
+        width: 50%;
+    }
+
+    .flexcontain-image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .flexcontain-text h2 {
+        font-size: 37px;
+    }
+
+    .flexcontain-text p {
+        font-size: 15px;
+    }
+
+    .footer-list li {
+        font-size: 15px;
+    }
+}
+
+@media (width <=576px) {
+
+    .nav-links {
+        display: none;
+    }
+
+    .navpad {
+        padding: 20px 20px;
+    }
+
+    .nav-links-small {
+        position: absolute;
+        display: block;
+        list-style: none;
+        background: rgb(85, 82, 82);
+        top: 16%;
+        left: 0;
+        width: 99.5%;
+        align-items: center;
+        transition: all 2s ease-in;
+        padding-top: 35px;
+    }
+
+    .nav-links-small .the-link {
+        text-align: center;
+        text-decoration: none;
+        color: #FFB573;
+
+    }
+
+    .nav-links-small li {
+        width: 100%;
+        padding-bottom: 35px;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .Container {
+        padding: 20px 20px 0px 20px;
+        margin-top: 30px;
+    }
+
+    .sm-screen-menu {
+        display: block;
+    }
+
+    .reg-log-buttons {
+        margin: auto;
+        gap: 20px;
+    }
+
+    .flexcontain-text h2 {
+        font-size: 27px;
+    }
+
+    .flexcontain-text p {
+        font-size: 12px;
+    }
+
+    .subscribe h2 {
+        font-size: 20px;
+    }
+
+    .footer-list li {
+        font-size: 11px;
+    }
+
+    .copright p {
+        font-size: 10px;
+    }
+
+}
+
+@media (width <= 375px) {
+    .flexcontain-text h2 {
+        font-size: 18px;
+    }
+
+    .flexcontain-text p {
+        font-size: 9px;
+        padding: 5px 0px;
+       
+    }
+
+    .flextext .btn_primary {
+        margin-top: 0px;
+        font-size: 11px;
+    }
+    .btn {
+        padding: 7px;
+        font-size: 13px;
+    }
+    .btn_primary {
+        width: 90px;
+        font-size: 13px;
+        padding: 5px;
+    }
+    .reg-log-buttons {
+        gap: 2px;
+    }
+    .subscribe h2 {
+        font-size: 17px;
+    }
+    .sm-screen-menu {
+       padding-top: 5px;
+    }
+    .footer-list li {
+        font-size: 11px;
+    }
+
+}

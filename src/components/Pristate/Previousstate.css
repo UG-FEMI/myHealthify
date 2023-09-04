@@ -1,0 +1,22 @@
+.the-chat-service-contain {
+    background: #FFB573;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+
+}
+
+#priv-img-icon {
+    font-size: 25px;
+    position: absolute;
+    top: 15px;
+    right: 13px;
+    color: white;
+}
+
+.prev-contain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
